@@ -9,12 +9,15 @@ Our project leverages state-of-the-art language models and speech recognition te
 5) Answer Retrieval: Grok is used to find the most relevant answers from the dataset based on the translated query.
 6) Multilingual Output: Answers are provided back to users in both Kannada and English, ensuring accessibility in both languages.
 
-# Technologies Used:
-
+# Technologies Used
 1)Python
+
 2)Flask: For web-based interaction and user interface.
+
 3)Grok for finding answers from dataset.
+
 4)IndicWhisper for converting Speech to Text.
+
 5)NLLB for translating English to Kannada and vice versa.
 
 # Contributors
