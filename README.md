@@ -6,7 +6,7 @@ Our project leverages state-of-the-art language models and speech recognition te
 2) Language Translation: Employs the NLLB model to translate Kannada text into English for cross-lingual understanding.
 3) Dataset Creation: The Kannada-to-English converted text is stored in a dataset for future querying.
 4) User Interaction: Users can ask questions in Kannada, which are converted to Kannada text and then translated into English.
-5) Answer Retrieval: Grok is used to find the most relevant answers from the dataset based on the translated query.
+5) Answer Retrieval: Groq is used to find the most relevant answers from the dataset based on the translated query.
 6) Multilingual Output: Answers are provided back to users in both Kannada and English, ensuring accessibility in both languages.
 
 # Technologies Used
@@ -44,6 +44,14 @@ Our project leverages state-of-the-art language models and speech recognition te
 # Required libraries:
 
   -pip install flask gtts moviepy fpdf comtypes groq
+
+# Usage:
+
+1)Run the Flask Application:
+
+-  python app.py
+
+2)Navigate to the local host link generated in the terminal.
   
 # Contributors
 Pranay Kelotra, Ansh Gupta, Yash Gupta
