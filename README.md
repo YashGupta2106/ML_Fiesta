@@ -24,8 +24,26 @@ Our project leverages state-of-the-art language models and speech recognition te
 
 1)Download the model from :https://github.com/YashGupta2106/LearnForge
 # Prerequisites
+  - Python 3.11
 
-Python 3.11
+# Project Setup:
 
+1)Clone the repository using :
+
+-  git clone https://github.com/YashGupta2106/ML_Fiesta
+
+2)cd project-name
+
+3)Install the dependencies:
+
+-  pip install -r requirements.txt
+
+4)Set up the Groq API by configuring your API key.
+
+
+# Required libraries:
+
+  -pip install flask gtts moviepy fpdf comtypes groq
+  
 # Contributors
 Pranay Kelotra, Ansh Gupta, Yash Gupta
