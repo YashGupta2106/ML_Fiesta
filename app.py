@@ -22,10 +22,10 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # NLLB Configuration
 NLLB_API_URL = "https://api-inference.huggingface.co/models/facebook/nllb-200-distilled-600M"
-NLLB_HEADERS = {"Authorization": "Bearer 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"}
+NLLB_HEADERS = {"Authorization": "Bearer "} # enter your HuggingFace API KEY after the word "Bearer"
 
 # Groq Configuration
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "" # enter your GROQ API KEY here 
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
