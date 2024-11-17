@@ -22,7 +22,7 @@ Our project leverages state-of-the-art language models and speech recognition te
 
 # Installation:
 
-1)Download the model from :https://github.com/YashGupta2106/LearnForge
+1)Download the model from :(https://iiitbac-my.sharepoint.com/:u:/g/personal/pranay_kelotra_iiitb_ac_in/EX87I__EZbRKqSqokJLqL7cBH89rssVH6mepiZu9TzSdbg?e=kVqBMA)
 # Prerequisites
   - Python 3.11
 
