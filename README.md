@@ -38,7 +38,8 @@ Our project leverages state-of-the-art language models and speech recognition te
 
 -  pip install -r requirements.txt
 
-4)Set up the Groq API by configuring your API key.
+4)Set up the Groq API by configuring your API key and enter it in app.py in line 28.
+5)Generate a HuggingFace API KEY and enter it in app.py in line 25
 
 
 # Required libraries:
