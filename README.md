@@ -43,7 +43,7 @@ Our project leverages state-of-the-art language models and speech recognition te
 
 # Required libraries:
 
-  -pip install flask gtts moviepy fpdf comtypes groq
+  -pip install Flask werkzeug torch transformers librosa soundfile requests groq
 
 # Usage:
 
