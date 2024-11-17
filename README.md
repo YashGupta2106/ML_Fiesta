@@ -52,6 +52,9 @@ Our project leverages state-of-the-art language models and speech recognition te
 -  python app.py
 
 2)Navigate to the local host link generated in the terminal.
+
+# Contributing:
+Feel free to submit issues or pull requests to improve the project.
   
 # Contributors
 Pranay Kelotra, Ansh Gupta, Yash Gupta
