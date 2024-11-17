@@ -1,5 +1,5 @@
-# ML_Fiesta
-Our project leverages state-of-the-art language models and speech recognition technologies to create an intelligent assistant that can understand and respond to user queries in both Kannada and English. Using a dataset of Kannada audio files, we employ IndicWhisper to convert the audio to Kannada text, which is then translated into English using the NLLB model. This allows us to store valuable content in a multilingual dataset. The system is designed to interact with users, processing their spoken questions in Kannada, converting the audio to text, translating it to English, and then retrieving the relevant answers from the stored dataset using Grok. The final responses are provided back to the user in both Kannada and English.
+# SandalWood Guide
+Our project leverages state-of-the-art language models and speech recognition technologies to create an intelligent assistant that can understand and respond to user queries in both Kannada and English. Using a dataset of Kannada audio files, we train IndicWhisper to convert the audio to Kannada text, which is then translated into English using the NLLB model. This allows us to store valuable content in a multilingual dataset. The system is designed to interact with users, processing their spoken questions in Kannada, converting the audio to text, translating it to English, and then retrieving the relevant answers from the stored dataset using Grok. The final responses are provided back to the user in both Kannada and English.
 
 # Features
 1) Speech-to-Text Conversion: Utilizes IndicWhisper to convert Kannada audio input into text.
@@ -14,11 +14,18 @@ Our project leverages state-of-the-art language models and speech recognition te
 
 2)Flask: For web-based interaction and user interface.
 
-3)Grok for finding answers from dataset.
+3)Groq for finding answers from dataset.
 
 4)IndicWhisper for converting Speech to Text.
 
 5)NLLB for translating English to Kannada and vice versa.
+
+# Installation:
+
+1)Download the model from :https://github.com/YashGupta2106/LearnForge
+# Prerequisites
+
+Python 3.11
 
 # Contributors
 Pranay Kelotra, Ansh Gupta, Yash Gupta
