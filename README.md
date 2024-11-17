@@ -1,6 +1,8 @@
 # SandalWood Guide
 Our project leverages state-of-the-art language models and speech recognition technologies to create an intelligent assistant that can understand and respond to user queries in both Kannada and English. Using a dataset of Kannada audio files, we train IndicWhisper to convert the audio to Kannada text, which is then translated into English using the NLLB model. This allows us to store valuable content in a multilingual dataset. The system is designed to interact with users, processing their spoken questions in Kannada, converting the audio to text, translating it to English, and then retrieving the relevant answers from the stored dataset using Grok. The final responses are provided back to the user in both Kannada and English.
 
+YouTube link : https://youtu.be/6XHUL8LXlxo
+
 # Features
 1) Speech-to-Text Conversion: Utilizes IndicWhisper to convert Kannada audio input into text.
 2) Language Translation: Employs the NLLB model to translate Kannada text into English for cross-lingual understanding.
